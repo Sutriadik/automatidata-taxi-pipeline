@@ -1,0 +1,19 @@
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Project data files (Large CSVs)
+data/raw/
+data/processed/
+
+# Serialized models
+models/*.pkl
+models/*.png
