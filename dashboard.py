@@ -686,7 +686,7 @@ elif menu == "🔮 Trip Predictor (Dual-Stage AI)":
                 # Action plan
                 st.markdown("#### 📋 Driver Action Plan & Strategy")
                 if is_generous == 1:
-                    st.success("💰 **High-Value Target:** Penumpang di rute ini cenderung memberi tip tinggi. Berikan layanan ramah, kabin bersih, AC nyaman, dan mengemudi dengan halus untuk mengamankan tip $\ge$ 20%.")
+                    st.success("💰 **High-Value Target:** Penumpang di rute ini cenderung memberi tip tinggi. Berikan layanan ramah, kabin bersih, AC nyaman, dan mengemudi dengan halus untuk mengamankan tip ≥ 20%.")
                 else:
                     st.warning("⚠️ **Retention Challenge:** Penumpang di rute ini cenderung memberikan tip standar. Jaga komunikasi yang baik dan tawarkan kenyamanan ekstra untuk mendongkrak kemungkinan mendapatkan tip lebih besar.")
                     
