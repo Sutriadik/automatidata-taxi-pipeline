@@ -103,3 +103,10 @@ Predictions:
   * Generous Tip Probability : 68.62%
 ==================================================
 ```
+
+### 3. Run the Interactive Streamlit Web Dashboard
+Launch the interactive dashboard to explore NYC taxi insights, run dual-stage predictions with quick-presets, inspect model reports, and simulate data drift/monitoring metrics:
+```bash
+streamlit run dashboard.py
+```
+
